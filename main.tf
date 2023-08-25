@@ -8,8 +8,8 @@ terraform {
  }
  backend "remote" {
    organization = "teste-ecs"
-   workdspaces (
-      name = ecs-deploy
+   workspaces (
+      name = TF_ECS_DEPLOY
        )
  }
 }
